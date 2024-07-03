@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tworzenie konta</title>
+    <link rel="stylesheet" href="./css/style1.css">
+</head>
+<body>
+    <form action="" method="post">
+        <label>Imie: 
+            <input type="text" name="imie" required>
+        </label>
+        <label>Haslo:
+            <input type="text" name="haslo" required>
+        </label>
+        <label>Miejscowosc:
+            <input type="text" name="miejscowosc">
+        </label>
+        <label>Telefon:
+            <input type="text" name="telefon" required>
+        </label>
+        <label>Data urodzin:
+            <input type="date" name="data_ur" required>
+        </label>
+        <label>E-mail:
+            <input type="text" name="email" required>
+        </label>
+        <label for="zdjecie_profilowe">Wybierz zdjecie profilowe:</label>
+        <input type="file" name="zdjecie_profilowe" accept=".jpg,.png">
+        <label>Zainteresowania:
+            <input type="text" name="zainteresowania">
+        </label>
+        <button type="submit">Zarejestruj sie!</button>
+    </form>
+</body>
+</html>
